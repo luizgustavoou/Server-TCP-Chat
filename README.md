@@ -1,9 +1,16 @@
 # Server-TCP-Chat
-Um servidor TCP bastante simples, com um socket aguardadno conexões do cliente na porta 8124. Um mini chat apenas pra teste.
+A very simple TCP server with a socket waiting for client connections on port 8124. A mini chat application just for testing.
 
-Passos:
-  1) Iniciar chat.js
-    >> node chat.js
-  2) Criar vários clientes conectando na porta 8124
-    >> telnet localhost 8124
-  
+## Steps:
+
+1. **Start the server**
+
+   ```bash
+   node chat.js
+   ```
+
+2. **Create multiple clients connecting on port 8124**
+
+   ```bash
+   telnet localhost 8124
+   ```
